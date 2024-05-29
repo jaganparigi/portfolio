@@ -1,0 +1,38 @@
+.name{
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.nav-menu li{
+    transition: 0.25s;
+}
+.nav-menu li:hover{
+    transform: scale(1.1);
+}
+.nav-connect{
+    padding: 20px;
+    border-radius: 50px;
+    border: 2px solid black;
+    background: linear-gradient(267deg, #C02626 4.36%, #DCEE0E 102.06%);
+    font-size: 26px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.nav-connect:hover{
+    transform: scale(1.05);
+    border:2px solid white;
+}
