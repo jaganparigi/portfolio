@@ -63,7 +63,7 @@
     width: 50%;
     height: 8px;
     border-radius: 50px;
-    background: linear-gradient(267deg, #C02626 4.36%, #DCEE0E 102.06%);
+    background: linear-gradient(200deg, #ff0303 45%, #eaff00);
 }
 .about-achivements{
     display: flex;
@@ -86,7 +86,7 @@
 .about-achievement h1{
     font-size: 60px;
     font-weight: 700;
-    background: linear-gradient(270deg, #C02626, #DCEE0E);
+    background: linear-gradient(200deg, #ff0303 45%, #eaff00);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

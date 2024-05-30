@@ -21,13 +21,19 @@
     transition: 0.25s;
 }
 .nav-menu li:hover{
-    transform: scale(1.1);
+    transform: scale(1.15);
+    font-weight: 500;
+    transition: 0.25s;
+    background: linear-gradient(200deg, #ff0303 45%, #eaff00);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .nav-connect{
     padding: 20px;
     border-radius: 50px;
     border: 2px solid black;
-    background: linear-gradient(267deg, #C02626 4.36%, #DCEE0E 102.06%);
+    background: linear-gradient(200deg, #ff0303 45%, #eaff00);
     font-size: 26px;
     cursor: pointer;
     transition: 0.25s;

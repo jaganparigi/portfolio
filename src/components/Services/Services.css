@@ -44,7 +44,7 @@
 .sevices-format h2{
     font-size: 38px;
     font-weight: 800;
-    background: linear-gradient(270deg, #E02626 50%, #DCEE0E 100%);
+    background: linear-gradient(200deg, #ff0303 45%, #eaff00);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
