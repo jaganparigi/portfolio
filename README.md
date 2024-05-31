@@ -13,5 +13,10 @@ This project is a Single Page Application (SPA) developed using React and Vite.
 - **React**  
 - **Vite**  
 - **ESLint**  
-- **GitHub Pages**  
+- **Git**  
 - **CSS**  
+
+## Tools:
+- **VS Code**
+- **ES7+ React/Redux/React-Native snippets**
+- **Prettier - Code formatter**
