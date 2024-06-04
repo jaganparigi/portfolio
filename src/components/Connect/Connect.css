@@ -1,0 +1,19 @@
+.anchor_link{
+    text-decoration: none;
+    color: white;
+}
+.connect{
+    margin-top:30px;
+    margin-bottom: 30px;
+    padding: 26px;
+    border-radius: 50px;
+    border: 2px solid black;
+    background: linear-gradient(200deg, #ff0303 45%, #eaff00);
+    font-size: 26px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.connect:hover{
+    transform: scale(1.1);
+    border:2px solid white;
+}
