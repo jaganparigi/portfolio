@@ -80,8 +80,11 @@
         margin-left: -10px;
         width: 110%;
         height: 110%;
-        filter: blur(0px);
+        filter: none;
         -webkit-filter: blur(0px);
+        -moz-filter: blur(0px);
+        -ms-filter: blur(0px);
+        filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
     }
     .mywork-showmore{
         padding: 20px 40px;
