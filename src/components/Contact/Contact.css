@@ -144,11 +144,11 @@
     .contact-right input{
         height:40px;
         margin-top: -20px;
-        width: 400px;
+        width: 380px;
     }
     .contact-right textarea{
         height: 150px;
-        width: 400px;
+        width: 380px;
         margin-top: -20px;
     }
 }
