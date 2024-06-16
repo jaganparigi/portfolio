@@ -63,7 +63,6 @@ const About = () => {
           <h1>15+</h1>
           <p>HAPPY CLIENTS</p>
         </div>
-        <hr className="about-client-hr" />
       </div>
     </div>
   );

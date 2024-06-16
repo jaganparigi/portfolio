@@ -48,3 +48,20 @@
     transform: scale(1.1);
     border-color: #fe0303;
 }
+@media(max-width: 768px){
+    .hero img{
+        margin-bottom: 20px;
+        width: 250px;
+        margin-top: 20px;
+    }
+    .hero h1{
+        width: 120%;
+        font-size: 50px;
+    }
+    .hero p{
+        width: 160%;
+        font-size: 18px;
+        line-height: 32px;
+        margin: 10px 10px;
+    }
+}

@@ -59,14 +59,29 @@ const Contact = () => {
           </div>
         </div>
         <form onSubmit={onSubmit} className="contact-right">
-          <label htmlFor="">Your Name</label>
-          <input type="text" placeholder="Enter your Name" name="name" />
-          <label htmlFor="">Email</label>
-          <input type="email" placeholder="Enter your email Id" name="email" />
-          <label htmlFor="">Message</label>
+          <label htmlFor="name">Your Name</label>
+          <input
+            type="text"
+            placeholder="Enter your Name"
+            name="name"
+            id="name"
+            autoComplete="given-name"
+          />
+          <label htmlFor="email">Email</label>
+          <input
+            type="email"
+            placeholder="Enter your email Id"
+            name="email"
+            id="email"
+            autoComplete="email"
+          />
+          <label htmlFor="message" autoComplete="off">
+            Message
+          </label>
           <textarea
             name="message"
             rows="8"
+            id="message"
             placeholder="Enter your message"
           ></textarea>
           <button type="submit" className="contact-submit">

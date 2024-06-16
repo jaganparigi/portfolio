@@ -105,3 +105,50 @@
     font-weight: 500;
     transition: 0.25s;
 }
+@media(max-width:768px){
+    .contact{
+        gap: 50px;
+        align-items: start;
+        margin: 50px 20px;
+    }
+    .contact-title h1{
+        font-size: 50px;
+        margin-left: -40px;
+    }
+    .contact-title img{
+        width: 120px;
+        margin-bottom: 5px;
+    }
+    .contact-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-left h1{
+        font-size: 50px;
+        margin-top: -20px;
+        margin-left: -5px;
+    }
+    .contact-left p{
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: -15px;
+    }
+    .contact-detail img{
+        width: 30px;
+        height:30px;
+        margin-top: -10px;
+    }
+    .contact-right{
+        margin-top: -60px;;
+    }
+    .contact-right input{
+        height:40px;
+        margin-top: -20px;
+        width: 400px;
+    }
+    .contact-right textarea{
+        height: 150px;
+        width: 400px;
+        margin-top: -20px;
+    }
+}

@@ -19,7 +19,9 @@ const Hero = () => {
         Winnebago.
       </p>
       <div className="hero-action">
-        <Connect />
+        <div className="con">
+          <Connect />
+        </div>
         <div className="hero-resume">Resume</div>
       </div>
     </div>
