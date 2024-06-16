@@ -80,6 +80,8 @@
         margin-left: -10px;
         width: 110%;
         height: 110%;
+        filter: blur(0px);
+        -webkit-filter: blur(0px);
     }
     .mywork-showmore{
         padding: 20px 40px;

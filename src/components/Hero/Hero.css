@@ -54,7 +54,10 @@
     .hero img{
         margin-bottom: 20px;
         width: 250px;
+        height:250px;
         margin-top: 20px;
+        filter: blur(0px);
+        -webkit-filter: blur(0px);
     }
     .hero h1{
         width: 300%;
