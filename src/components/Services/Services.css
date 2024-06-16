@@ -96,7 +96,7 @@
     }
     .services-container{
         grid-template-columns: 1fr 1fr;
-        gap: 8px;
+        gap: 20px 8px;
         margin-left: -5px;
     }
 }
