@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import "./Navbar.css";
-import Jagan from "../../assets/Jagan.svg";
+import Jagan from "../../assets/Vector.svg";
 import underline from "../../assets/nav_underline.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import Connect from "../Connect/Connect";
