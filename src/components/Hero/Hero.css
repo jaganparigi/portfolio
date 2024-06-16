@@ -55,11 +55,12 @@
         margin-top: 20px;
     }
     .hero h1{
-        width: 120%;
+        width: 300%;
         font-size: 50px;
     }
     .hero p{
-        width: 160%;
+        width: 300%;
+        text-align:center;
         font-size: 18px;
         line-height: 32px;
         margin: 10px 10px;

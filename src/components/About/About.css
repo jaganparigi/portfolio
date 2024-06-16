@@ -141,4 +141,10 @@
         font-size: 18px;
         margin-left: -10px;
     }
+    .about-skill:hover{
+        transform: scale(1.1);
+    }
+    .about-achievement:hover{
+        transform: scale(1.2);
+    }
 }
