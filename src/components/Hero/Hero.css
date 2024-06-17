@@ -51,11 +51,12 @@
     border-color: #fe0303;
 }
 @media(max-width: 768px){
+
     .hero img{
         margin-bottom: 20px;
         margin-top: -60px;
         width: 200px;
-        height: 200px;
+        object-fit: contain;
     }
     .hero h1{
         width: 300%;

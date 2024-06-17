@@ -62,9 +62,10 @@
     }
     .mywork-title h1{
         margin-left: -40px;
-        padding: 0;
+        padding: 0px;
         font-size: 50px;
         font-weight: 600;
+        width: 390px;
     }
     .mywork-title img{
         width:130px;
@@ -72,14 +73,15 @@
         margin-bottom: 5px;
     }
     .mywork-container{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 30px;
         margin-top: 10px;
     }
     .mywork-container img{
-        margin-left: -10px;
-        width: 110%;
-        height: 110%;
+        margin-left: 0px;
+        width: 360px;
+        height: 180px;
+        aspect-ratio: auto;
     }
     .mywork-showmore{
         padding: 20px 40px;
