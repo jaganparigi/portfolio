@@ -58,7 +58,6 @@
         object-fit: contain;
     }
     .hero h1{
-        display: flex;
         font-size: 50px;
         width: 300%;
     }
