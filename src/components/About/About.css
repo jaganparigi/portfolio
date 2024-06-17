@@ -101,6 +101,9 @@
         margin: 20px 30px;
         align-items: start;
     }
+    .about-title{
+        width: 280px;
+    }
     .about-title h1{
         margin-left: -30px;
         font-weight: 600;
@@ -117,10 +120,12 @@
         display: none;
     }
     .about-para{
+        display: flex;
         margin-top: -40px;
         line-height: 32px;
         font-weight: 400;
         font-size: 18px;
+        width: 100%;
     }
     .about-skill p{
         font-size: 20px;

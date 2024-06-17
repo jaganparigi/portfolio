@@ -25,6 +25,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
+    margin-left: -10px;
     transition: 0.25s;
 }
 .mywork-container img{
@@ -60,6 +61,9 @@
         margin: 50px 40px;
         align-items: start;
     }
+    .mywork-title{
+        margin-bottom: -60px;
+    }
     .mywork-title h1{
         margin-left: -40px;
         padding: 0px;
@@ -74,23 +78,23 @@
     }
     .mywork-container{
         grid-template-columns: 1fr;
-        gap: 30px;
-        margin-top: 10px;
+        gap: 50px;
+        margin-top: 0px;
+        transform: scale(0.9);
     }
     .mywork-container img{
-        margin-left: 0px;
-        width: 360px;
-        height: 180px;
+        margin-left: -25px;
         aspect-ratio: auto;
     }
     .mywork-showmore{
         padding: 20px 40px;
         font-size: 18px;
         margin: 50px auto;
+        margin-top: -60px;
         cursor: pointer;
     }
     .mywork-container img:hover{
-        transform: scale3d(1.2);
+        transform: scale3d(1);
         border-radius: 10px;
     }
 }
