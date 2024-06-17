@@ -82,12 +82,6 @@
         height: 110%;
         filter: none;
         -webkit-filter: blur(0px);
-        -moz-filter: blur(0px);
-        -ms-filter: blur(0px);
-        filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
-        backface-visibility: hidden;
-        transform: translateZ(0);
-        -webkit-font-smoothing: subpixel-antialiased;
     }
     .mywork-showmore{
         padding: 20px 40px;
