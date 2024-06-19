@@ -46,11 +46,11 @@ const Contact = () => {
           <div className="contact-details">
             <div className="contact-detail">
               <img src={mail_icon} alt="" />
-              <p>mydomain9923@gmail.com</p>
+              <p>jagan.pjmr10@gmail.com</p>
             </div>
             <div className="contact-detail">
               <img src={call_icon} alt="" />
-              <p>xxx-xxx-xxxx</p>
+              <p>612 444 2201</p>
             </div>
             <div className="contact-detail">
               <img src={location_icon} alt="" />
